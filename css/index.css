@@ -10,13 +10,16 @@ body {
 }
 a:link {
 	color: #606060;
-}
-a:hover {
-	color: #909090;
+	text-decoration: none;
 }
 a:visited {
 	color: #303030;
+	text-decoration: none;
 }
+a:hover, a:active {
+	color: #909090;
+	text-decoration: underline;
+}	
 img {
 	margin-bottom: 7px;
 }
